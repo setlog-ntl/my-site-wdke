@@ -6,7 +6,7 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁23',
   nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Gildong Hong',
   title: process.env.NEXT_PUBLIC_TITLE || '프리랜서 개발자',
   titleEn: process.env.NEXT_PUBLIC_TITLE_EN || 'Freelance Developer',
