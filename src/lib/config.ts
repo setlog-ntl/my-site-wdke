@@ -6,9 +6,9 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁23567',
-  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Gildong Hong',
-  title: process.env.NEXT_PUBLIC_TITLE || '프리랜서 개발자',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '개발자',
+  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || '김개발',
+  title: process.env.NEXT_PUBLIC_TITLE || '바이브코딩 개발자',
   titleEn: process.env.NEXT_PUBLIC_TITLE_EN || 'Freelance Developer',
   company: process.env.NEXT_PUBLIC_COMPANY || null,
   companyEn: process.env.NEXT_PUBLIC_COMPANY_EN || null,
