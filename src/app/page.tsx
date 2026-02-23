@@ -9,6 +9,17 @@ import { Footer } from '@/components/footer';
 export default function Home() {
   return (
     <main id="main" className="min-h-screen flex flex-col items-center justify-center p-4">
+      <style jsx global>{`
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+          }
+          .print-card {
+            background-color: #2a2a2a;
+          }
+        }
+      `}</style>
       <div className="w-full max-w-sm mx-auto">
         <div className="print-card rounded-2xl shadow-lg overflow-hidden bg-white dark:bg-gray-800">
           <div className="h-2" style={{ background: `linear-gradient(90deg, ${siteConfig.accentColor}, ${siteConfig.accentColor}dd)` }} />
